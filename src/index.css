@@ -1,0 +1,77 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.add-widget{
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 40vw;
+  position: relative;
+}
+
+.add-widget-head{
+  position: absolute;
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  width: 100%;
+  top: 0;
+  padding-left: 1.5rem;
+  align-content: center;
+}
+
+.add-widget-body{
+  position: relative;
+  height: 93%;
+  margin-top: 2.8rem;
+  padding-left: 1rem;
+}
+
+.add-widget-category{
+  height: 2rem;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.add-widget-category button {
+  background-color: white;
+  color: gray;
+  border: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  padding: 0.4rem 1rem;
+}
+
+.add-widget-category button:hover{
+  border-bottom: 0.1rem solid blue;
+  color: blue;
+}
+
+.add-widget-buttons {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  
+}
+
+.add-widget-buttons button {
+  padding: 0.2rem 1rem;
+  margin: 0rem 1rem 0.6rem 0rem;
+  border-radius: 0.4rem;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+#cancle {
+  color: blue;
+}
+
+#confirm {
+  background-color: blue;
+  color: white;
+}
